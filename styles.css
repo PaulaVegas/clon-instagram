@@ -6,57 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-.logoInstagram {
-    display: block;
-    direction: ltr;
-    font-size: 14px;
-    line-height: 18px;
-    position: relative;
-    width: 220px;
-    padding-top: 12px;
-    padding-left: 12px;
-}
-
-.container {
-    display: block;
-    direction: ltr;
-    line-height: 18px;
-    width: 220px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px;
-}
-
-.moreSection {
-    display: block;
-    direction: ltr;
-    font-size: 14px;
-    line-height: 18px;
-    justify-content: flex-end;
-    padding-left: 12px;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: 
-}
-
-li a {
-    display: block;
-    color: inherit;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-li img {
-    display: inline-block;
-    margin-right: 16px;
-}
-
+/*NAVBAR STYLE*/
 .navbar {
     align-content: stretch;
     align-items: stretch;
@@ -64,10 +14,178 @@ li img {
     flex-direction: column;
     font-weight: 400;
     font-size: 16px;
-    height: 959px;
+    height: 2481px;
+    width: 244px;
     justify-content: flex-start;
-    line-height: 18px;
+    line-height: 24px;
     position: fixed;
-    width: 245px;
+    margin-top: 4px;
+    margin-left: 249px;
 }
 
+.logoInstagram {
+    display: block;
+    direction: ltr;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    width: 103px;
+    height: 29px;
+    padding-top: 40px;
+    padding-left: 24px;
+}
+
+.container {
+    display: block;
+    direction: ltr;
+    line-height: 24px;
+    width: 220px;
+    height: 384px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+    
+}
+
+.moreSection {
+    display: block;
+    direction: ltr;
+    line-height: 24px;
+    justify-content: flex-end;
+    margin-left: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none; 
+}
+
+li a {
+    display: inline-block;
+    color: inherit;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+li img {
+    display: inline-block;
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/*BIO STYLE*/
+
+.profileZone {
+    width: 935px;
+    height: 267px;
+    margin-left: 493px;
+    padding-top: 73px;
+    padding-bottom: 44px;
+    display: flex;
+}
+
+.profileBody {
+    width: 613px;
+    height: 150px;
+    margin-left: 101px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.profilePic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.userAccount {
+    display: flex;
+    flex-direction: row;
+    width: 613px;
+    height: 40px;
+}
+
+.userName {
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.followButton {
+    width: 110px;
+    height: 32px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+/*Faltaría alinear vertical*/
+.dots { 
+    width: 40px;
+    height: 30px;
+    gap: 10px;
+}
+
+.userStats {
+    display: flex;
+    flex-direction: row;
+    width: 613px;
+    height: 58px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.posts {
+    padding-right: 40px;
+}
+
+.followers {
+    padding-right: 40px;
+}
+
+.userBio {
+    flex-direction: row;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+/*HIGHLIGHT REELS*/
+.highlightContainer {
+    display: flex;
+    flex-direction: row;
+    width: 548px;
+    height: 174px;
+    margin-left: 493px;
+    padding-bottom: 44px;
+}
+
+.highlightContainer img {
+    width: 67px;
+    height: 67px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 56px;
+    
+}
+
+.highlights {
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+    height: 130px;
+}
+
+.highlight1 {
+    width: 125px;
+    height: 130px;
+}
