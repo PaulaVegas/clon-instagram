@@ -4,9 +4,10 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
 }
 
-/*NAVBAR STYLE*/
+/*-----------------------------------------------------------------NAVBAR STYLE-----------------------------------------------------------------*/
 .navbar {
     align-content: stretch;
     align-items: stretch;
@@ -21,6 +22,7 @@
     position: fixed;
     margin-top: 4px;
     margin-left: 249px;
+    background-color: #fffff;
 }
 
 .logoInstagram {
@@ -81,12 +83,12 @@ li img {
     vertical-align: middle;
 }
 
-/*BIO STYLE*/
+/*-----------------------------------------------------------------BIO STYLE-----------------------------------------------------------------*/
 
 .profileZone {
     width: 935px;
     height: 267px;
-    margin-left: 493px;
+    margin-left: 520px;
     padding-top: 73px;
     padding-bottom: 44px;
     display: flex;
@@ -159,7 +161,7 @@ li img {
     font-size: 16px;
 }
 
-/*HIGHLIGHT REELS*/
+/*-----------------------------------------------------------------HIGHLIGHT REELS-----------------------------------------------------------------*/
 .highlightContainer {
     display: flex;
     flex-direction: row;
@@ -167,6 +169,8 @@ li img {
     height: 174px;
     margin-left: 493px;
     padding-bottom: 44px;
+    justify-content: center;
+    align-items: center;
 }
 
 .highlightContainer img {
@@ -183,9 +187,57 @@ li img {
     flex-direction: row;
     width: 125px;
     height: 130px;
+    gap: 65px;
 }
 
-.highlight1 {
-    width: 125px;
-    height: 130px;
+.highlights p {
+    height: 31px;
+    width: 79px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*FEED GRID*/
+.gridNav {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #dbdbdb;
+    width: 935px;
+    height: 53px;
+    margin-left: 372px;
+    justify-content: center;
+}
+
+.grid-tab {
+    display: flex;
+    flex-direction: row;
+    width: 114px;
+    height: 52px;
+    padding-top: 17px;
+    padding-right: 60px;
+    padding-bottom: 17px;
+
+}
+
+.grid-tab img {
+    display: flex;
+    flex-direction: row;
+    width: 12px;
+    height: 12px;
+}
+
+.grid-tab a {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    gap: 10px;
+    color: inherit;
+
+}
+
+/*--------------------------------!!!!     ARREGLAR     ESTO !!!!!--------------------*/
+.gridNav .grid-tab .post-tab {
+    border-top: 1px solid black;
 }
